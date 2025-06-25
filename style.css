@@ -1,5 +1,4 @@
 /* Limpando as formatações: */
-
 *{
     margin: 0px;
     padding: 0px;
@@ -7,7 +6,6 @@
 }
 
 /* Aplicando estilo ao body: */
-
 body{
     font-family: Arial, sans-serif;
     background-color: #F0F0F0;
@@ -15,7 +13,6 @@ body{
 }
 
 /* Centralizando o cabeçalho: */
-
 header{
     text-align: center;
     padding: 20px;
@@ -30,7 +27,6 @@ ul{
 }
 
 /* Aplicando estilo aos links: */
-
 li>a{
     border: 1px solid #1b68ba;
     background: #d0ebff;
@@ -49,9 +45,7 @@ a:hover{
     color:rgb(60, 171, 226)
 }
 
-
 /* Aplicando estilo ao conteúdo e títulos: */
-
 section{
     margin: 20px auto;
     max-width: 800px;
@@ -105,13 +99,7 @@ input,textarea{
     background: #1c08ff;
 }
 
-
-
-
-
-
 /* Rodapé: */
-
 footer{
     text-align: center;
     margin-top: 30px;
