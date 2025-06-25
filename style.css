@@ -1,0 +1,121 @@
+/* Limpando as formatações: */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Aplicando estilo ao body: */
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #F0F0F0;
+    color: #333;
+}
+
+/* Centralizando o cabeçalho: */
+
+header{
+    text-align: center;
+    padding: 20px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+/* Aplicando estilo aos links: */
+
+li>a{
+    border: 1px solid #1b68ba;
+    background: #d0ebff;
+    padding: 5px 9px;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #007BFF;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+    color:rgb(60, 171, 226)
+}
+
+
+/* Aplicando estilo ao conteúdo e títulos: */
+
+section{
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 10px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    line-height: 1.5;
+}
+
+section h2{
+    margin-bottom: 15px;
+    color: #222;
+    font-size: 24px;
+}
+
+h3{
+    margin-top: 12px;
+    margin-bottom: 8px;
+}
+
+section p{
+    margin-bottom: 15px;
+}
+
+form{
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input,textarea{
+    width: 100%;
+    padding: 6px;
+    margin-top: 4px;
+    margin-bottom: 9px;
+    border: 1px solid #cfcbcb;
+    border-radius: 5px;
+}
+
+#submit {
+  background: #519ae7;
+  color: white;
+  cursor: pointer;
+}
+
+#submit:hover{
+    background: #1c08ff;
+}
+
+
+
+
+
+
+/* Rodapé: */
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    font-style: italic;
+    color: #777676
+}
